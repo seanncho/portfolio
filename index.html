@@ -1,0 +1,234 @@
+<DOCTYPE! html>
+
+  <html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatable" content="ie=edge">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="mediaqueries.css">
+    <script defer src="script.js"></script>
+  </head>
+
+  <body>
+
+    <nav id="desktop-nav">
+      <div class="logo">Sean Cho</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Sean Cho</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <section id="profile">
+      <div class="section-pic-container">
+        <img src="./assets/profile-pic.png" alt="Sean Cho profile picture" class="profile-pic" />
+      </div>
+      <div class="section_text">
+        <h1 class="title">Sean Cho</h1>
+        <p class="section_text_p2">MIS Senior at UH</p>
+        <div class="btn-container">
+          <button class="btn btn-color-1" onclick="window.open('./assets/resume.pdf')">Resume</button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+        </div>
+        <div id="socials-container">
+          <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+            onclick="location.href='https://linkedin.com/in/seanncho'" />
+          <img src="./assets/github.png" alt="My GitHub profile" class="icon"
+            onclick="location.href='https://github.com/seanncho'" />
+        </div>
+      </div>
+    </section>
+
+    <div class="tag">
+      <section id="about">
+        <h1 class="title">About Me</h1>
+        <div class="text-container">
+          <p class="bio">
+            I am pursuing a BBA in MIS from the C.T. Bauer College of Business at the University of Houston.
+            I am actively building my skills pertaining to cybersecurity, cloud computing, and artificial
+            intelligence.
+            My proficiency in multiple programming languages lends itself well to optimizing current information
+            systems and implementing new innovative procedures.
+            Collaboration and solidarity guide my philosophy of business as they help teams reach their maximum
+            potential.
+          </p>
+        </div>
+        <div class="cert-container">
+          <div class="details-container">
+            <img src="./assets/itf.png" alt="CompTIA ITF+ icon" class="cert-icon"
+              onclick="location.href='https://www.credly.com/badges/eb33a789-5e22-4cb2-836f-3895e8da9963/linked_in_profile'" />
+            <h3>CompTIA ITF+</h3>
+          </div>
+          <div class="details-container">
+            <img src="./assets/az900.png" alt="Azure Fundamentals icon" class="cert-icon"
+              onclick="location.href='https://learn.microsoft.com/en-us/users/seancho-9050/credentials/8db16cd259496da6'" />
+            <h3>Azure Fundamentals</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tag">
+      <section id="skills">
+        <h1 class="title">Skills</h1>
+        <div class="skill-container">
+          <div class="details-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Skills icon" class="icon" />
+              <h3>IT</h3>
+            </article>
+          </div>
+          <div class="details-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Skills icon" class="icon" />
+              <h3>Linux</h3>
+            </article>
+          </div>
+          <div class="details-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Skills icon" class="icon" />
+              <h3>Azure</h3>
+            </article>
+          </div>
+          <div class="details-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Skills icon" class="icon" />
+              <h3>C</h3>
+            </article>
+          </div>
+          <div class="details-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Skills icon" class="icon" />
+              <h3>Java</h3>
+            </article>
+          </div>
+          <div class="details-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Skills icon" class="icon" />
+              <h3>HTML</h3>
+            </article>
+          </div>
+          <div class="details-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Skills icon" class="icon" />
+              <h3>CSS</h3>
+            </article>
+          </div>
+          <div class="details-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Skills icon" class="icon" />
+              <h3>JavaScript</h3>
+            </article>
+          </div>
+          <div class="details-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Skills icon" class="icon" />
+              <h3>SQL</h3>
+            </article>
+          </div>
+          <div class="details-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Skills icon" class="icon" />
+              <h3>Python</h3>
+            </article>
+          </div>
+          <div class="details-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Skills icon" class="icon" />
+              <h3>Lua</h3>
+            </article>
+          </div>
+          <div class="details-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Skills icon" class="icon" />
+              <h3>Figma</h3>
+            </article>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="tag">
+      <section id="projects">
+        <h1 class="title">Projects</h1>
+        <div class="project-container">
+          <div class="project-details-container">
+            <img src="./assets/GMT.png" alt="Project 1" class="project-img" />
+            <h3>Registration Form Website</h3>
+            <div class="btn-container">
+              <button class="btn btn-color-1" onclick="location.href='https://seanncho.github.io/gmt/'">
+                View
+              </button>
+            </div>
+          </div>
+          <div class="project-details-container">
+            <img src="./assets/figma.png" alt="Project 2" class="project-img" />
+            <h3>MISSO x CougarCS UI</h3>
+            <div class="btn-container">
+              <button class="btn btn-color-1" onclick="location.href='https://www.figma.com/file/BmHLfIX0M8b1Hm4RXLtQlT/Case-Quest-2023-Midnight-Coders?type=design&node-id=0%3A1&mode=design&t=opqbzRAniGU6ROX3-1'">
+                View
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="tag">
+      <section id="contact">
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-container">
+          <div class="details-container">
+            <img src="./assets/email.png" alt="Email icon" class="email-icon" />
+            <p><a href="mailto:seanncho@outlook.com">seanncho@outlook.com</a></p>
+          </div>
+          <div class="details-container">
+            <img src="./assets/linkedin.png" alt="LinkedIn icon" class="linkedin-icon" />
+            <p><a href="https://www.linkedin.com/in/seanncho">LinkedIn</a></p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="tag">
+      <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <p class="footer-text">Copyright &#169; 2024 Sean Cho. All Rights Reserved.</p>
+      </footer>
+    </div>
+
+  </body>
+
+  </html>

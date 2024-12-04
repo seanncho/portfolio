@@ -1,0 +1,425 @@
+/* GENERAL */
+
+:root {
+  /* Dark Mode Color Palette */
+  --bg-primary: #121212;
+  --bg-secondary: #1e1e1e;
+  --text-primary: #e0e0e0;
+  --text-secondary: #a0a0a0;
+  --accent-color: #8ace00;
+  --border-color: #3a3a3a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  color: rgb(85, 85, 85);
+  color: var(--text-secondary);
+  margin: auto;
+  font-size: 2rem;
+}
+
+/* TRANSITION */
+
+a,
+.btn {
+  transition: all 300ms ease;
+}
+
+/* DESKTOP NAV */
+
+nav,
+.nav-links {
+  display: flex;
+}
+
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 15vh;
+  position: sticky;
+  top: 0;
+  background-color: rgba(18, 18, 18, 0.8); /* Transparent dark background */
+  backdrop-filter: blur(10px); /* Adds a blur effect for transparency */
+  z-index: 1000;
+}
+
+.nav-links {
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+a {
+  color: var(--text-primary);
+  text-decoration: none;
+  text-decoration-color: transparent;
+}
+
+a:hover {
+  color: var(--accent-color);
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: var(--accent-color);
+}
+
+.logo {
+  font-size: 3rem;
+  color: var(--text-primary);
+  transition: all 300ms ease;
+}
+
+.logo:hover {
+  color: var(--accent-color);
+  cursor: default;
+}
+
+/* HAMBURGER MENU */
+
+#hamburger-nav {
+  display: none;
+}
+
+.hamburger-menu {
+  position: relative;
+  display: inline-block;
+}
+
+.hamburger-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 24px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.hamburger-icon span {
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  transition: all 0.3 ease-in-out;
+}
+
+.menu-links {
+  margin-top: 1em;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: var(--bg-secondary);
+  width: fit-content;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out; 
+}
+
+.menu-links a {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: all 0.3 ease-in-out;
+}
+
+.menu-links li {
+  list-style: none;
+}
+
+.menu-links.open {
+  max-height: 300px;
+}
+
+.hamburger-icon.open span:first-child {
+  transform: rotate(45deg) translate(10px, 5px);
+}
+
+.hamburger-icon.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger-icon.open span:last-child {
+  transform: rotate(-45deg) translate(10px, -5px);
+}
+
+.hamburger-icon span {
+  transition: all 0.3s ease-in-out;
+}
+
+/* SECTIONS */
+
+section {
+  padding-top: 4vh;
+  height: 100vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  height: fit-content;
+  min-height: fit-content;
+}
+
+/* PROFILE SECTION */
+
+#profile {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 60vh;
+}
+
+.profile-pic {
+  border-radius: 8rem;
+}
+
+.section-pic-container {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+
+.section_text {
+  align-self: center;
+  text-align: center;
+}
+
+.section_text p {
+  font-weight: 600;
+}
+
+.section_text_p2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+#socials-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+/* ICONS */
+
+.icon {
+  cursor: pointer;
+  height: 5rem;
+}
+
+.cert-icon {
+  cursor: pointer;
+  height: 10rem;
+}
+
+/* BUTTONS */
+
+.btn-container {
+  gap: 1rem;
+}
+
+.btn {
+  text-align: center;
+  font-size: large;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 10rem;
+  border-radius: 2rem;
+}
+
+.btn-color-1 {
+  border: rgb(53, 53, 53) 0.1rem solid;
+}
+
+.btn-color-1:hover {
+  background: rgb(0, 0, 0);
+  color: white;
+  cursor: pointer;
+}
+
+/* GRID STUFF */
+
+#about {
+  height: 60vh;
+}
+
+.details-container {
+  display: flex;
+  padding: 1.5rem;
+  background-color: var(--bg-secondary);
+  color: var(--text-secondary);
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.2rem solid;
+  text-wrap: wrap;
+}
+
+.skill-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.cert-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.project-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 1.5rem;
+  background-color: var(--bg-secondary);
+  color: var(--text-secondary);
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.2rem solid;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.text-container {
+  text-align: justify;
+  margin: 5rem;
+}
+
+.bio {
+  font-size: 2rem;
+}
+
+h3 {
+  margin: auto;
+  font-size: 2rem;
+}
+
+
+/* SKILLS SECTION */
+
+#skills {
+  position: relative;
+}
+
+/* PROJECTS SECTION */
+
+#projects {
+  position: relative;
+}
+
+.project-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2rem;
+  width: 80%;
+  height: 80%;
+}
+
+/* CONTACT */
+
+#contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 50vh;
+}
+
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+.linkedin-icon {
+  cursor: default;
+  height: 5rem;
+}
+
+.email-icon {
+  cursor: default;
+  height: 5rem;
+}
+
+/* FOOTER SECTION */
+
+footer {
+  height: 40vh;
+  margin: 0 1rem;
+}
+
+.footer-text {
+  text-align: center;
+  font-size: 1rem;
+}
+
+/* SCROLL FADE ANIMATIONS */
+
+@keyframes fadeInUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+}
+
+.tag {
+  opacity: 0;
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.fade-in-up {
+  animation: fadeInUp 1s both;
+  opacity: 1;
+}
+
+.fade-out {
+  animation: fadeOut 1s both;
+}
