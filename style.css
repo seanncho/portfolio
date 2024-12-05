@@ -85,7 +85,7 @@ a {
 a:hover {
   color: var(--accent-color);
   text-decoration: underline;
-  text-underline-offset: 1em;
+  text-underline-offset: 0.5em;
   text-decoration-color: var(--accent-color);
 }
 
@@ -128,11 +128,13 @@ a:hover {
 }
 
 .menu-links {
-  margin-top: 1em;
+  margin-top: 4em;
+  border-radius: 1em;
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: var(--bg-secondary);
+  background-color: rgba(18, 18, 18, 0.8); 
+  backdrop-filter: blur(10px); 
   width: fit-content;
   max-height: 0;
   overflow: hidden;
