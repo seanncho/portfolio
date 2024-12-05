@@ -258,11 +258,12 @@ section {
 
 .btn {
   text-align: center;
-  font-size: large;
+  font-size: 1em;
   transition: all 300ms ease;
   padding: 1em;
   width: 10em;
-  border-radius: 2em;
+  border-radius: 1em;
+  margin: 0.25em;
 }
 
 .btn-color-1 {
