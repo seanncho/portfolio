@@ -32,6 +32,10 @@ p {
   font-size: 2rem;
 }
 
+h1 {
+  margin-top: 10vh;
+}
+
 /* TRANSITION */
 
 a,
@@ -133,7 +137,15 @@ a:hover {
   font-size: 1.5rem;
   color: var(--text-secondary);
   text-decoration: none;
-  transition: all 0.3 ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu-links a:hover {
+  color: var(--accent-color);
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+  text-decoration-color: var(--accent-color);
+  transition: all 0.3s ease-in-out;
 }
 
 .menu-links li {
@@ -163,12 +175,8 @@ a:hover {
 /* SECTIONS */
 
 section {
-  scroll-margin-top: 15vh;
-  padding-top: 4vh;
+  scroll-margin-top: 20vh;
   height: 100vh;
-  margin: 0 10rem;
-  margin-bottom: 5rem;
-  margin-top: 5rem;
   box-sizing: border-box;
   height: fit-content;
   min-height: fit-content;
@@ -277,10 +285,6 @@ section {
   margin: auto;
 }
 
-.details-container .icon {
-  margin: auto;
-}
-
 .cert-block-container {
   display: flex;
   padding: 1.5rem;
@@ -332,7 +336,7 @@ section {
 
 .text-container {
   text-align: justify;
-  margin: 5rem;
+  margin: 2rem;
 }
 
 .bio {
@@ -347,19 +351,25 @@ h3 {
 /* ABOUT SECTION */
 
 #about {
-  height: 80vh;
+  margin-top: 10vh;
+  height: 50vh;
+  margin: auto;
 }
 
 /* SKILLS SECTION */
 
 #skills {
+  margin-top: 10vh;
   height: 80vh;
+  margin: auto;
 }
 
 /* PROJECTS SECTION */
 
 #projects {
+  margin-top: 10vh;
   height: 80vh;
+  margin: auto;
 }
 
 .project-img {
@@ -374,7 +384,9 @@ h3 {
 /* CONTACT */
 
 #contact {
+  margin-top: 10vh;
   height: 40vh;
+  margin: auto;
 }
 
 .linkedin-icon {
