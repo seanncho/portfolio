@@ -1,7 +1,6 @@
 /* GENERAL */
 
 :root {
-  /* Dark Mode Color Palette */
   --bg-primary: #121212;
   --bg-secondary: #1e1e1e;
   --text-primary: #e0e0e0;
@@ -53,8 +52,8 @@ nav {
   height: 15vh;
   position: sticky;
   top: 0;
-  background-color: rgba(18, 18, 18, 0.8); /* Transparent dark background */
-  backdrop-filter: blur(10px); /* Adds a blur effect for transparency */
+  background-color: rgba(18, 18, 18, 0.8); 
+  backdrop-filter: blur(10px); 
   z-index: 1000;
 }
 
@@ -321,7 +320,7 @@ section {
 }
 
 h3 {
-  margin: auto;
+  margin: 2rem;
   font-size: 2rem;
 }
 
@@ -330,6 +329,10 @@ h3 {
 
 #skills {
   position: relative;
+}
+
+.skill-text {
+  margin: 1rem;
 }
 
 /* PROJECTS SECTION */
@@ -356,21 +359,13 @@ h3 {
   height: 50vh;
 }
 
-.contact-info-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  margin: 1rem;
-}
-
 .linkedin-icon {
-  cursor: default;
+  cursor: pointer;
   height: 5rem;
 }
 
 .email-icon {
-  cursor: default;
+  cursor: pointer;
   height: 5rem;
 }
 

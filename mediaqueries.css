@@ -3,16 +3,6 @@
     height: 20vh;
     margin-bottom: 6rem;
   }
-  #contact,
-  #projects {
-    height: fit-content;
-  }
-  p {
-    font-size: 1rem;
-  }
-}
-
-@media screen and (max-width: 1200px) {
   #desktop-nav {
     display: none;
   }
@@ -43,15 +33,45 @@
   .about-containers {
     margin-top: 0;
   }
+  p {
+    font-size: 1rem;
+  }
+  .email-icon {
+    height: 3rem;
+  }
+  .linkedin-icon {
+    height: 3rem;
+  }
+  .bio {
+    font-size: 1rem;
+  }
+  .skill-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  .cert-container {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
+  .project-container {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
+  .cert-icon {
+    height: 5rem;
+  }
+  .text-container {
+    margin: 1rem;
+  }
 }
 
-@media screen and (max-width: 600px) {
-  #contact,
-  footer {
-    height: 40vh;
+@media screen and (max-width: 1000px) {
+  p {
+    font-size: 0.75rem;
   }
+}
+
+
+@media screen and (max-width: 600px) {
   #profile {
-    height: 83vh;
+    height: 80vh;
     margin-bottom: 0;
   }
   article {
@@ -61,10 +81,6 @@
     height: fit-content;
     margin-bottom: 2rem;
   }
-  .contact-info-container {
-    margin: 8px;
-  }
-  .contact-info-container p,
   .nav-links li a {
     font-size: 1rem;
   }
@@ -91,7 +107,7 @@
     text-align: justify;
   }
   p {
-    font-size: 0.5rem;
+    font-size: 0.6rem;
   }
   .email-icon {
     height: 2rem;
@@ -103,28 +119,18 @@
     font-size: 1rem;
   }
   .skill-container {
-    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 1rem;
-    padding: 2rem;
   }
   .cert-container {
-    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1rem;
-    padding: 2rem;
   }
   .project-container {
-    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1rem;
-    padding: 2rem;
   }
   h3 {
     font-size: 1rem;
   }
   .cert-icon {
-    cursor: pointer;
     height: 3rem;
   }
   .text-container {
