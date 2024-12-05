@@ -18,6 +18,7 @@
       <div class="logo">Sean Cho</div>
       <div>
         <ul class="nav-links">
+          <li><a href="/">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
@@ -34,6 +35,7 @@
           <span></span>
         </div>
         <div class="menu-links">
+          <li><a href="/" onclick="toggleMenu()">Home</a></li>
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
           <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
@@ -62,9 +64,11 @@
       </div>
     </section>
 
-    <div class="tag">
-      <section id="about">
-        <h1 class="title">About Me</h1>
+    <section id="about">
+      <div class="tag">
+      <h1 class="title">About Me</h1>
+      </div>
+      <div class="tag">
         <div class="text-container">
           <p class="bio">
             I am pursuing a BBA in MIS from the C.T. Bauer College of Business at the University of Houston.
@@ -76,17 +80,23 @@
             potential.
           </p>
         </div>
-        <div class="cert-container">
+      </div>
+      <div class="cert-container">
+        <div class="tag">
           <div class="cert-block-container">
             <img src="./assets/isc2.png" alt="ISC2 icon" class="cert-icon"
               onclick="location.href='https://www.credly.com/badges/304ba4c6-6ecc-4500-91c4-d94949cd253e/linked_in_profile'" />
             <h3>ISC2 Candidate</h3>
           </div>
+        </div>
+        <div class="tag">
           <div class="cert-block-container">
             <img src="./assets/itf.png" alt="CompTIA ITF+ icon" class="cert-icon"
               onclick="location.href='https://www.credly.com/badges/eb33a789-5e22-4cb2-836f-3895e8da9963/linked_in_profile'" />
             <h3>CompTIA ITF+</h3>
           </div>
+        </div>
+        <div class="tag">
           <div class="cert-block-container">
             <img src="./assets/az900.png" alt="Azure Fundamentals icon" class="cert-icon"
               onclick="location.href='https://learn.microsoft.com/en-us/users/seancho-9050/credentials/8db16cd259496da6'" />
@@ -94,169 +104,152 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="tag">
-      <section id="skills">
+    <section id="skills">
+      <div class="tag">
         <h1 class="title">Skills</h1>
-        <div class="skill-container">
-          <div class="details-container">
-            <article>
-              <div class="image-container">
-                <img src="./assets/it.png" class="icon" onclick="location.href='https://www.comptia.org/'" />
-              </div>
-              <h3>IT</h3>
-            </article>
-          </div>
-          <div class="details-container">
-            <article>
-              <div class="image-container">
-                <img src="./assets/linux.png" class="icon" onclick="location.href='https://www.kali.org/'" />
-              </div>
-              <h3>Linux</h3>
-            </article>
-          </div>
-          <div class="details-container">
-            <article>
-              <div class="image-container">
-                <img src="./assets/azure.png" class="icon" onclick="location.href='https://azure.microsoft.com/en-us/'" />
-              </div>
-              <h3>Azure</h3>
-            </article>
-          </div>
-          <div class="details-container">
-            <article>
-              <div class="image-container">
-                <img src="./assets/c.png" class="icon" onclick="location.href='https://www.w3schools.com/c/'" />
-              </div>
-              <h3>C</h3>
-            </article>
-          </div>
-          <div class="details-container">
-            <article>
-              <div class="image-container">
-                <img src="./assets/java.png" class="icon" onclick="location.href='https://www.java.com/en/'" />
-              </div>
-              <h3>Java</h3>
-            </article>
-          </div>
-          <div class="details-container">
-            <article>
-              <div class="image-container">
-                <img src="./assets/html.png" class="icon" onclick="location.href='https://developer.mozilla.org/en-US/docs/Web/HTML'" />
-              </div>
-              <h3>HTML</h3>
-            </article>
-          </div>
-          <div class="details-container">
-            <article>
-              <div class="image-container">
-                <img src="./assets/css.png" class="icon" onclick="location.href='https://developer.mozilla.org/en-US/docs/Web/CSS'" />
-              </div>
-              <h3>CSS</h3>
-            </article>
-          </div>
-          <div class="details-container">
-            <article>
-              <div class="image-container">
-                <img src="./assets/js.png" class="icon" onclick="location.href='https://developer.mozilla.org/en-US/docs/Web/JavaScript'" />
-              </div>
-              <h3>JavaScript</h3>
-            </article>
-          </div>
-          <div class="details-container">
-            <article>
-              <div class="image-container">
-                <img src="./assets/sql.png" class="icon" onclick="location.href='https://dev.mysql.com/doc/'" />
-              </div>
-              <h3>SQL</h3>
-            </article>
-          </div>
-          <div class="details-container">
-            <article>
-              <div class="image-container">
-                <img src="./assets/python.png" class="icon" onclick="location.href='https://www.python.org/'" />
-              </div>
-              <h3>Python</h3>
-            </article>
-          </div>
-          <div class="details-container">
-            <article>
-              <div class="image-container">
-                <img src="./assets/lua.png" class="icon" onclick="location.href='https://www.lua.org/'" />
-              </div>
-              <h3>Lua</h3>
-            </article>
-          </div>
-          <div class="details-container">
-            <article>
-              <div class="image-container">
-                <img src="./assets/figma.png" class="icon" onclick="location.href='https://www.figma.com/'" />
-              </div>
-              <h3>Figma</h3>
-            </article>
+      </div>
+      <div class="skill-container">
+        <div class="tag">
+          <div class="skill-block-container">
+            <div><img src="./assets/it.png" class="icon" onclick="location.href='https://www.comptia.org/'" /></div>
+            <div><h3>IT</h3></div>
           </div>
         </div>
-      </section>
-    </div>
+        <div class="tag">
+          <div class="skill-block-container">
+            <div><img src="./assets/linux.png" class="icon" onclick="location.href='https://www.kali.org/'" /></div>
+            <div><h3>Linux</h3></div>
+          </div>
+        </div>
+        <div class="tag">
+          <div class="skill-block-container">
+            <div><img src="./assets/azure.png" class="icon" onclick="location.href='https://azure.microsoft.com/en-us/'" /></div>
+            <div><h3>Azure</h3></div>
+          </div>
+        </div>
+        <div class="tag">
+          <div class="skill-block-container">
+            <div><img src="./assets/c.png" class="icon" onclick="location.href='https://www.w3schools.com/c/'" /></div>
+            <div><h3>C</h3></div>
+          </div>
+        </div>
+        <div class="tag">
+          <div class="skill-block-container">
+            <div><img src="./assets/java.png" class="icon" onclick="location.href='https://www.java.com/en/'" /></div>
+            <div><h3>Java</h3></div>
+          </div>
+        </div>
+        <div class="tag">
+          <div class="skill-block-container">
+            <div><img src="./assets/html.png" class="icon" onclick="location.href='https://developer.mozilla.org/en-US/docs/Web/HTML'" /></div>
+            <div><h3>HTML</h3></div>
+          </div>
+        </div>
+        <div class="tag">
+          <div class="skill-block-container">
+            <div><img src="./assets/css.png" class="icon" onclick="location.href='https://developer.mozilla.org/en-US/docs/Web/CSS'" /></div>
+            <div><h3>CSS</h3></div>
+          </div>
+        </div>
+        <div class="tag">
+          <div class="skill-block-container">
+            <div><img src="./assets/js.png" class="icon" onclick="location.href='https://developer.mozilla.org/en-US/docs/Web/JavaScript'" /></div>
+            <div><h3>JavaScript</h3></div>
+          </div>
+        </div>
+        <div class="tag">
+          <div class="skill-block-container">
+            <div><img src="./assets/sql.png" class="icon" onclick="location.href='https://dev.mysql.com/doc/'" /></div>
+            <div><h3>SQL</h3></div>
+          </div>
+        </div>
+        <div class="tag">
+          <div class="skill-block-container">
+            <div><img src="./assets/python.png" class="icon" onclick="location.href='https://www.python.org/'" /></div>
+            <div><h3>Python</h3></div>
+          </div>
+        </div>
+        <div class="tag">
+          <div class="skill-block-container">
+            <div><img src="./assets/lua.png" class="icon" onclick="location.href='https://www.lua.org/'" /></div>
+            <div><h3>Lua</h3></div>
+          </div>
+        </div>
+        <div class="tag">
+          <div class="skill-block-container">
+            <div><img src="./assets/figma.png" class="icon" onclick="location.href='https://www.figma.com/'" /></div>
+            <div><h3>Figma</h3></div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <div class="tag">
-      <section id="projects">
+    <section id="projects">
+      <div class="tag">
         <h1 class="title">Projects</h1>
-        <div class="project-container">
-          <div class="project-details-container">
-            <img src="./assets/GMT.png" alt="Project 1" class="project-img" />
-            <h3>Registration Form Website</h3>
-            <div class="btn-container">
-              <button class="btn btn-color-1" onclick="location.href='https://seanncho.github.io/gmt/'">
-                View
-              </button>
-            </div>
-          </div>
-          <div class="project-details-container">
-            <img src="./assets/casequest.png" alt="Project 2" class="project-img" />
-            <h3>MISSO x CougarCS UI</h3>
-            <div class="btn-container">
-              <button class="btn btn-color-1" onclick="location.href='https://www.figma.com/file/BmHLfIX0M8b1Hm4RXLtQlT/Case-Quest-2023-Midnight-Coders?type=design&node-id=0%3A1&mode=design&t=opqbzRAniGU6ROX3-1'">
-                View
-              </button>
-            </div>
+      </div>
+      <div class="project-container">
+      <div class="tag">
+        <div class="project-block-container">
+          <img src="./assets/GMT.png" alt="Project 1" class="project-img" />
+          <h3>Registration Form Website</h3>
+          <div class="btn-container">
+            <button class="btn btn-color-1" onclick="location.href='https://seanncho.github.io/gmt/'">
+              View
+            </button>
           </div>
         </div>
-      </section>
-    </div>
+      </div>
+      <div class="tag">
+        <div class="project-block-container">
+          <img src="./assets/casequest.png" alt="Project 2" class="project-img" />
+          <h3>MISSO x CougarCS UI</h3>
+          <div class="btn-container">
+            <button class="btn btn-color-1" onclick="location.href='https://www.figma.com/file/BmHLfIX0M8b1Hm4RXLtQlT/Case-Quest-2023-Midnight-Coders?type=design&node-id=0%3A1&mode=design&t=opqbzRAniGU6ROX3-1'">
+              View
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <div class="tag">
-      <section id="contact">
+    <section id="contact">
+      <div class="tag">
         <h1 class="title">Contact Me</h1>
-        <div class="contact-container">
-          <div class="details-container">
+      </div>
+      <div class="contact-container">
+        <div class="tag">
+          <div class="contact-block-container">
             <img src="./assets/email.png" alt="Email icon" class="email-icon" onclick="location.href='mailto:seanncho@outlook.com'" />
             <p><a href="mailto:seanncho@outlook.com">seanncho@outlook.com</a></p>
           </div>
-          <div class="details-container">
+        </div>
+        <div class="tag">
+          <div class="contact-block-container">
             <img src="./assets/linkedin.png" alt="LinkedIn icon" class="linkedin-icon" onclick="location.href='https://linkedin.com/in/seanncho'" />
             <p><a href="https://www.linkedin.com/in/seanncho">LinkedIn</a></p>
           </div>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
 
-    <div class="tag">
       <footer>
-        <nav>
-          <div class="nav-links-container">
-            <ul class="nav-links">
-              <li><a href="#about">About</a></li>
-              <li><a href="#skills">Skills</a></li>
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </div>
-        </nav>
-        <p class="footer-text">Copyright &#169; 2024 Sean Cho. All Rights Reserved.</p>
+        <div class="tag">
+          <nav>
+            <div class="nav-links-container">
+              <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </nav>
+          <p class="footer-text">Copyright &#169; 2024 Sean Cho. All Rights Reserved.</p>
+        </div>
       </footer>
-    </div>
 
   </body>
 

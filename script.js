@@ -26,7 +26,7 @@ if (elementsToFadeInUpOnScroll) {
       const windowHeight = window.innerHeight;
 
       // Check if the element is in the viewport
-      if (elementTop < windowHeight * 0.7 && elementBottom > 0) {
+      if (elementTop < windowHeight * 0.9 && elementBottom > 0) {
         element.classList.add("fade-in-up");
         element.classList.remove("fade-out");
       } else {

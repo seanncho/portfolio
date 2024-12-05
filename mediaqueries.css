@@ -15,9 +15,6 @@
   #profile {
     display: block;
   }
-  .arrow {
-    display: none;
-  }
   section,
   .section-container {
     height: fit-content;
@@ -45,11 +42,11 @@
   .bio {
     font-size: 1rem;
   }
-  .skill-container {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  }
   .cert-container {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
+  .skill-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
   .project-container {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -62,20 +59,10 @@
   }
 }
 
-@media screen and (max-width: 1000px) {
-  p {
-    font-size: 0.75rem;
-  }
-}
-
-
 @media screen and (max-width: 600px) {
   #profile {
     height: 80vh;
     margin-bottom: 0;
-  }
-  article {
-    font-size: 1rem;
   }
   footer nav {
     height: fit-content;
@@ -94,7 +81,7 @@
   }
   .section-pic-container {
     width: auto;
-    height: 46vw;
+    height: 45vw;
     justify-content: center;
   }
   .section_text_p2 {
@@ -103,23 +90,11 @@
   .title {
     font-size: 2rem;
   }
-  .text-container {
-    text-align: justify;
-  }
-  p {
-    font-size: 0.6rem;
-  }
-  .email-icon {
-    height: 2rem;
-  }
-  .linkedin-icon {
-    height: 2rem;
+  .cert-container {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
   .skill-container {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  }
-  .cert-container {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
   .project-container {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
