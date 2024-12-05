@@ -105,4 +105,7 @@
   .text-container {
     margin: 1rem;
   }
+  .footer-text {
+    font-size: 0.5em;
+  }
 }

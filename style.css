@@ -281,7 +281,7 @@ section {
 /* ABOUT SECTION */
 
 #about {
-  margin-top: 10vh;
+  margin-top: 20vh;
   height: 50vh;
   margin: auto;
 }
@@ -314,8 +314,7 @@ section {
 /* SKILLS SECTION */
 
 #skills {
-  margin-top: 10vh;
-  height: 80vh;
+  margin-top: 20vh;
   margin: auto;
 }
 
@@ -341,8 +340,7 @@ section {
 /* PROJECTS SECTION */
 
 #projects {
-  margin-top: 10vh;
-  height: 80vh;
+  margin-top: 20vh;
   margin: auto;
 }
 
@@ -377,8 +375,7 @@ section {
 /* CONTACT */
 
 #contact {
-  margin-top: 10vh;
-  height: 40vh;
+  margin-top: 20vh;
   margin: auto;
 }
 
@@ -411,8 +408,8 @@ section {
 /* FOOTER SECTION */
 
 footer {
-  height: 40vh;
-  margin: 0 1em;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
 }
 
 .footer-text {
