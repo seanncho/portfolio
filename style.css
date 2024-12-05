@@ -163,9 +163,12 @@ a:hover {
 /* SECTIONS */
 
 section {
+  scroll-margin-top: 15vh;
   padding-top: 4vh;
   height: 100vh;
   margin: 0 10rem;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
   box-sizing: border-box;
   height: fit-content;
   min-height: fit-content;
@@ -256,10 +259,6 @@ section {
 
 /* GRID STUFF */
 
-#about {
-  height: 60vh;
-}
-
 .details-container {
   display: flex;
   padding: 1.5rem;
@@ -267,7 +266,27 @@ section {
   color: var(--text-secondary);
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.2rem solid;
-  text-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.details-container .icon {
+  margin: auto;
+}
+
+.cert-block-container {
+  display: flex;
+  padding: 1.5rem;
+  background-color: var(--bg-secondary);
+  color: var(--text-secondary);
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.2rem solid;
 }
 
 .skill-container {
@@ -324,21 +343,22 @@ h3 {
   font-size: 2rem;
 }
 
+/* ABOUT SECTION */
+
+#about {
+  height: 80vh;
+}
 
 /* SKILLS SECTION */
 
 #skills {
-  position: relative;
-}
-
-.skill-text {
-  margin: 1rem;
+  height: 80vh;
 }
 
 /* PROJECTS SECTION */
 
 #projects {
-  position: relative;
+  height: 80vh;
 }
 
 .project-img {
@@ -353,10 +373,7 @@ h3 {
 /* CONTACT */
 
 #contact {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  height: 50vh;
+  height: 40vh;
 }
 
 .linkedin-icon {
