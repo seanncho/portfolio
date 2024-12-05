@@ -185,6 +185,7 @@ section {
 
 .profile-pic {
   border-radius: 8rem;
+  cursor: crosshair;
 }
 
 .section-pic-container {
