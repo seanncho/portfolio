@@ -20,12 +20,11 @@ const elementsToFadeInUpOnScroll = document.querySelectorAll(".tag");
 if (elementsToFadeInUpOnScroll) {
   window.addEventListener("scroll", function(event) {
     elementsToFadeInUpOnScroll.forEach(function(element) {
-      // Get the position of the element relative to the viewport
+      
       const elementTop = element.getBoundingClientRect().top;
       const elementBottom = element.getBoundingClientRect().bottom;
       const windowHeight = window.innerHeight;
 
-      // Check if the element is in the viewport
       if (elementTop < windowHeight * 0.8 && elementBottom > 0) {
         element.classList.add("fade-in-up");
         element.classList.remove("fade-out");
