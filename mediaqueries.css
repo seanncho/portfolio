@@ -98,6 +98,7 @@
   }
   .project-grid {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    row-gap: 2.5em;
   }
   h3 {
     font-size: 1em;
