@@ -1,7 +1,7 @@
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1200px) {
   #profile {
     height: 20vh;
-    margin-bottom: 6rem;
+    margin-bottom: 6em;
   }
   #desktop-nav {
     display: none;
@@ -10,7 +10,7 @@
     display: flex;
   }
   #skills {
-    margin-top: 2rem;
+    margin-top: 2em;
   }
   #profile {
     display: block;
@@ -25,37 +25,37 @@
   .section-pic-container {
     width: 275px;
     height: 275px;
-    margin: 0 auto 2rem;
+    margin: 0 auto 2em;
   }
   .about-containers {
     margin-top: 0;
   }
   p {
-    font-size: 1rem;
+    font-size: 1em;
   }
   .email-icon {
-    height: 3rem;
+    height: 3em;
   }
   .linkedin-icon {
-    height: 3rem;
-  }
-  .bio {
-    font-size: 1rem;
-  }
-  .cert-container {
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  }
-  .skill-container {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  }
-  .project-container {
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    height: 3em;
   }
   .cert-icon {
-    height: 5rem;
+    height: 8em;
   }
-  .text-container {
-    margin: 1rem;
+  .bio {
+    font-size: 1em;
+  }
+  .cert-grid {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
+  .skill-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  .project-grid {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
+  h3 {
+    font-size: 1.5em;
   }
 }
 
@@ -66,17 +66,17 @@
   }
   footer nav {
     height: fit-content;
-    margin-bottom: 2rem;
+    margin-bottom: 2em;
   }
   .nav-links li a {
-    font-size: 1rem;
+    font-size: 0.75em;
   }
   .logo {
-    font-size: 1.5rem;
+    font-size: 1.5em;
   }
   .nav-links {
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.5em;
     text-align: center;
   }
   .section-pic-container {
@@ -85,27 +85,30 @@
     justify-content: center;
   }
   .section_text_p2 {
-    font-size: 1.25rem;
+    font-size: 1.25em;
   }
   .title {
-    font-size: 2rem;
+    font-size: 2em;
   }
-  .cert-container {
+  .cert-grid {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
-  .skill-container {
+  .skill-grid {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
-  .project-container {
+  .project-grid {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
   h3 {
-    font-size: 1rem;
-  }
-  .text-container {
-    margin: 1rem;
+    font-size: 1em;
   }
   .footer-text {
     font-size: 0.5em;
+  }
+  .cert-icon {
+    height: 5em;
+  }
+  .project-img {
+    width: 100%;
   }
 }
