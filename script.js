@@ -1,3 +1,4 @@
+// Open the menu when the hamburger icon is clicked
 function toggleMenu() {
   const menu = document.querySelector(".menu-links");
   const icon = document.querySelector(".hamburger-icon");
@@ -5,6 +6,7 @@ function toggleMenu() {
   icon.classList.toggle("open");
 }
 
+// Close the menu when a link is clicked
 document.addEventListener("click", function(event) {
   const menu = document.querySelector(".menu-links");
   const icon = document.querySelector(".hamburger-icon");
@@ -16,6 +18,7 @@ document.addEventListener("click", function(event) {
   }
 });
 
+// Fade in and out elements on scroll
 const elementsToFadeInUpOnScroll = document.querySelectorAll(".tag");
 if (elementsToFadeInUpOnScroll) {
   window.addEventListener("scroll", function(event) {

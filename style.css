@@ -1,6 +1,7 @@
 /* GENERAL */
 
 * {
+  /* Courier is my favorite font. I also like Comic Sans (please don't judge me) */
   font-family: "Courier New", Courier, monospace;
   margin: 0;
   padding: 0;
@@ -15,7 +16,7 @@ html {
   --bg-secondary: #1e1e1e;
   --text-primary: #e0e0e0;
   --text-secondary: #a0a0a0;
-  --accent-color: #8ace00;
+  --accent-color: #8ace00; /* Charli XCX Brat Green */
   --border-color: #3a3a3a;
 }
 
