@@ -233,14 +233,25 @@ section {
 
 /* ICONS */
 
-.icon {
+.top-icon {
   cursor: pointer;
   height: 5em;
+  border-radius: 1em;
 }
 
 .cert-icon {
   cursor: pointer;
   height: 10em;
+}
+
+.icon {
+  cursor: pointer;
+  height: 5em;
+}
+
+.bottom-icon {
+  cursor: pointer;
+  height: 5em;
 }
 
 /* BUTTONS */
@@ -389,12 +400,6 @@ section {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1em;
   padding: 2em;
-}
-
-.linkedin-icon,
-.email-icon {
-  cursor: pointer;
-  height: 5em;
 }
 
 /* FOOTER SECTION */
