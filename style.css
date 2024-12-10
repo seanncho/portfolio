@@ -9,6 +9,7 @@
 
 html {
   scroll-behavior: smooth;
+  cursor: default;
 }
 
 :root {
@@ -45,6 +46,7 @@ h3 {
 /* TRANSITION */
 
 a,
+img,
 .btn {
   transition: all 300ms ease;
 }
@@ -254,6 +256,13 @@ section {
   height: 5em;
 }
 
+.top-icon:hover,
+.cert-icon:hover,
+.icon:hover,
+.bottom-icon:hover {
+  transform: scale(1.1) rotate(3deg);
+}
+
 /* BUTTONS */
 
 .btn-container {
@@ -376,6 +385,10 @@ section {
   object-fit: cover;
   width: 60%;
   height: auto;
+}
+
+.project-img:hover {
+  transform: scale(1.05);
 }
 
 /* CONTACT */
