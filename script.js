@@ -28,7 +28,7 @@ if (elementsToFadeInUpOnScroll) {
       const elementBottom = element.getBoundingClientRect().bottom;
       const windowHeight = window.innerHeight;
 
-      if (elementTop < windowHeight * 0.9 && elementBottom > 0) {
+      if (elementTop < windowHeight * 0.8 && elementBottom > 0) {
         element.classList.add("fade-in-up");
         element.classList.remove("fade-out");
       } else {

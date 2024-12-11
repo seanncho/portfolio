@@ -236,8 +236,6 @@ section {
 /* ICONS */
 
 .top-icon {
-  cursor: pointer;
-  height: 5em;
   border-radius: 1em;
 }
 
@@ -246,11 +244,8 @@ section {
   height: 10em;
 }
 
-.icon {
-  cursor: pointer;
-  height: 5em;
-}
-
+.icon,
+.top-icon,
 .bottom-icon {
   cursor: pointer;
   height: 5em;
@@ -288,6 +283,29 @@ section {
   cursor: pointer;
 }
 
+/* GRID CONTAINERS */
+
+.cert-grid-container,
+.skill-grid-container,
+.project-grid-container,
+.contact-grid-container {
+  display: flex;
+  padding: 1.5em;
+  background-color: var(--bg-secondary);
+  color: var(--text-secondary);
+  border-radius: 2em;
+  border: rgb(53, 53, 53) 0.2em solid;
+}
+
+.cert-grid,
+.skill-grid,
+.project-grid,
+.contact-grid {
+  display: grid;
+  gap: 1em;
+  padding: 2em;
+}
+
 /* ABOUT SECTION */
 
 #about {
@@ -298,19 +316,10 @@ section {
 
 .cert-grid-container {
   margin: 0.5em;
-  display: flex;
-  padding: 1.5em;
-  background-color: var(--bg-secondary);
-  color: var(--text-secondary);
-  border-radius: 2em;
-  border: rgb(53, 53, 53) 0.2em solid;
 }
 
 .cert-grid {
-  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
-  gap: 1em;
-  padding: 2em;
 }
 
 .text-container {
@@ -330,22 +339,13 @@ section {
 
 .skill-grid-container {
   margin: 0.5em;
-  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 1.5em;
-  background-color: var(--bg-secondary);
-  color: var(--text-secondary);
-  border-radius: 2em;
-  border: rgb(53, 53, 53) 0.2em solid;
 }
 
 .skill-grid {
-  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1em;
-  padding: 2em;
 }
 
 /* PROJECTS SECTION */
@@ -357,24 +357,15 @@ section {
 
 .project-grid-container {
   margin: 1em;
-  display: flex;
   box-sizing: border-box;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 1.5em;
-  background-color: var(--bg-secondary);
-  color: var(--text-secondary);
-  border-radius: 2em;
-  border: rgb(53, 53, 53) 0.2em solid;
   height: 100%;
 }
 
 .project-grid {
-  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1em;
-  padding: 2em;
 }
 
 .project-img {
@@ -400,19 +391,10 @@ section {
 
 .contact-grid-container {
   margin: 0.5em;
-  display: flex;
-  padding: 1.5em;
-  background-color: var(--bg-secondary);
-  color: var(--text-secondary);
-  border-radius: 2em;
-  border: rgb(53, 53, 53) 0.2em solid;
 }
 
 .contact-grid {
-  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1em;
-  padding: 2em;
 }
 
 /* FOOTER SECTION */
