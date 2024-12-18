@@ -17,7 +17,7 @@ html {
   --bg-secondary: #1e1e1e;
   --text-primary: #e0e0e0;
   --text-secondary: #a0a0a0;
-  --accent-color: #8ace00; /* Charli XCX Brat Green */
+  --accent-color: #5BC2E7; /* Zima Blue */
   --border-color: #3a3a3a;
 }
 
@@ -294,7 +294,7 @@ section {
   background-color: var(--bg-secondary);
   color: var(--text-secondary);
   border-radius: 2em;
-  border: rgb(53, 53, 53) 0.2em solid;
+  box-shadow: inset 0 0 15px rgba(135, 135, 135, .2), 0 0 18px 3px rgba(0, 0, 0, 1);
 }
 
 .cert-grid,
@@ -309,9 +309,10 @@ section {
 /* ABOUT SECTION */
 
 #about {
-  margin-top: 20vh;
+  margin-top: 30vh;
   height: 50vh;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .cert-grid-container {
@@ -334,7 +335,8 @@ section {
 
 #skills {
   margin-top: 20vh;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .skill-grid-container {
@@ -352,7 +354,8 @@ section {
 
 #projects {
   margin-top: 20vh;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .project-grid-container {
@@ -386,7 +389,8 @@ section {
 
 #contact {
   margin-top: 20vh;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .contact-grid-container {
