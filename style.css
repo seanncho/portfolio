@@ -309,7 +309,7 @@ section {
 /* ABOUT SECTION */
 
 #about {
-  margin-top: 30vh;
+  margin-top: 25vh;
   margin-left: auto;
   margin-right: auto;
 }
@@ -358,6 +358,7 @@ section {
 }
 
 .project-grid-container {
+  padding-top: 2em;
   margin: 1em;
   box-sizing: border-box;
   justify-content: center;
@@ -381,7 +382,7 @@ section {
 }
 
 .project-img:hover {
-  transform: scale(1.05);
+  transform: scale(1.025);
 }
 
 /* CONTACT */
