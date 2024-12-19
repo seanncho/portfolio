@@ -13,22 +13,17 @@ html {
 }
 
 :root {
-  --bg-primary: #121212;
-  --bg-secondary: #1e1e1e;
-  --text-primary: #e0e0e0;
-  --text-secondary: #a0a0a0;
   --accent-color: #5BC2E7; /* Zima Blue */
-  --border-color: #3a3a3a;
 }
 
 body {
-  background-color: var(--bg-primary);
-  color: var(--text-primary);
+  background-color: #121212;
+  color: #e0e0e0;
   transition: background-color 300ms, color 300ms;
 }
 
 p {
-  color: var(--text-secondary);
+  color: #a0a0a0;
   margin: auto;
   font-size: 2em;
 }
@@ -76,7 +71,7 @@ nav {
 }
 
 a {
-  color: var(--text-primary);
+  color: #e0e0e0;
   text-decoration: none;
   text-decoration-color: transparent;
 }
@@ -90,7 +85,7 @@ a:hover {
 
 .logo {
   font-size: 3em;
-  color: var(--text-primary);
+  color: #e0e0e0;
   transition: all 300ms ease;
 }
 
@@ -145,7 +140,7 @@ a:hover {
   padding: 10px;
   text-align: center;
   font-size: 1.5em;
-  color: var(--text-secondary);
+  color: #a0a0a0;
   text-decoration: none;
   transition: all 300ms ease-in-out;
 }
@@ -291,10 +286,8 @@ section {
 .contact-grid-container {
   display: flex;
   padding: 1.5em;
-  background-color: var(--bg-secondary);
-  color: var(--text-secondary);
   border-radius: 2em;
-  box-shadow: inset 0 0 15px rgba(135, 135, 135, .2), 0 0 18px 3px rgba(0, 0, 0, 1);
+  box-shadow: inset 0 0 15px rgba(135, 135, 135, .1), 0 0 18px 3px rgba(0, 0, 0, .3);
 }
 
 .cert-grid,
