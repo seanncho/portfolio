@@ -90,13 +90,13 @@
     font-size: 2em;
   }
   .cert-grid {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
   .skill-grid {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
   .project-grid {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     row-gap: 2.5em;
   }
   h3 {
