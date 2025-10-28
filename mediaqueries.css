@@ -100,4 +100,10 @@
   .project-img {
     width: 100%;
   }
+  p {
+    font-size: 0.7em
+  }
+  .bio {
+    font-size: 0.7em
+  }
 }
