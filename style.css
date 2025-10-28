@@ -199,7 +199,6 @@ section {
   display: flex;
   height: 400px;
   width: 400px;
-  margin: auto 0;
 }
 
 .section_text {
@@ -214,6 +213,7 @@ section {
 .section_text_p2 {
   font-size: 1.75em;
   margin-bottom: 1em;
+  width: 50%;
 }
 
 .title {
