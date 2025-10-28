@@ -17,32 +17,11 @@
   #profile {
     display: block;
   }
-  section,
-  .section-container {
-    height: fit-content;
-  }
-  section {
-    margin: 0 5%;
-  }
-  .section-pic-container {
-    width: 275px;
-    height: 275px;
-    margin: 0 auto 2em;
-  }
-  .about-containers {
-    margin-top: 0;
-  }
-  p {
-    font-size: 1em;
-  }
   .bottom-icon {
     height: 3em;
   }
   .cert-icon {
     height: 8em;
-  }
-  .bio {
-    font-size: 1em;
   }
   .cert-grid {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -112,9 +91,6 @@
   h3 {
     font-size: 0.8em;
   }
-  .bio {
-    font-size: 0.8em;
-  }
   .footer-text {
     font-size: 0.5em;
   }
@@ -123,11 +99,5 @@
   }
   .project-img {
     width: 100%;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  p {
-    font-size: 0.5em;
   }
 }
