@@ -20,6 +20,9 @@
   .bottom-icon {
     height: 3em;
   }
+  .section-pic-container {
+    justify-self: center;
+  }
   .cert-icon {
     height: 8em;
   }
