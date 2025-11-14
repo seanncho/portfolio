@@ -38,6 +38,9 @@
   .contact-grid {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   }
+  .book-grid {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
   h3 {
     font-size: 1.2em;
   }
@@ -90,6 +93,9 @@
   .contact-grid {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     margin: 0 auto;
+  }
+  .book-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
   h3 {
     font-size: 0.8em;

@@ -268,6 +268,15 @@ section {
   margin: 0.25em;
 }
 
+.btn2 {
+  text-align: center;
+  font-size: 1em;
+  padding: 1em;
+  width: 10em;
+  border-radius: 1em;
+  margin: 0.25em;
+}
+
 .btn-color-1 {
   border: rgb(53, 53, 53) 0.1em solid;
 }
@@ -283,7 +292,8 @@ section {
 .cert-grid-container,
 .skill-grid-container,
 .project-grid-container,
-.contact-grid-container {
+.contact-grid-container,
+.book-grid-container {
   display: flex;
   padding: 1.5em;
   border-radius: 2em;
@@ -293,10 +303,46 @@ section {
 .cert-grid,
 .skill-grid,
 .project-grid,
-.contact-grid {
+.contact-grid,
+.book-grid {
   display: grid;
   gap: 1em;
   padding: 2em;
+}
+
+.book-grid-container {
+  padding-top: 2em;
+  margin: 1em;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.book-grid {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin-bottom: 10vh;
+}
+
+#books {
+  margin-top: 20vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.book-img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  width: 50%;
+  height: auto;
+}
+
+.book-img:hover {
+  transform: scale(1.025);
 }
 
 /* ABOUT SECTION */
@@ -398,7 +444,7 @@ section {
 
 footer {
   margin-top: 10vh;
-  margin-bottom: 15vh;
+  margin-bottom: 40vh;
 }
 
 .footer-text {
