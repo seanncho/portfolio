@@ -3,11 +3,11 @@
 @media screen and (max-width: 1200px) {
   #profile {
     display: block;
-    height: 20dvh;
+    height: 20vh;
   }
   @-moz-document url-prefix() {
     #about {
-      margin-top: 120dvh;
+      margin-top: 120vh;
     }
   }
   .profile-pic {
@@ -52,26 +52,26 @@
     font-size: 1.2em;
   }
   footer {
-    margin-top: 10dvh;
-    margin-bottom: 10dvh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
   }
 }
 
 @media (max-width: 768px) and (orientation: landscape) {
   @-moz-document url-prefix() {
     #about {
-      margin-top: 200dvh;
+      margin-top: 200vh;
     }
   }
 }
 
 @media screen and (max-width: 600px) {
   #profile {
-    height: 80dvh;
+    height: 80vh;
   }
   @-moz-document url-prefix() {
     #about {
-      margin-top: 25dvh;
+      margin-top: 25vh;
     }
   }
   footer nav {
@@ -139,7 +139,7 @@
     font-size: 0.7em
   }
   footer {
-    margin-top: 2dvh;
-    margin-bottom: 10dvh;
+    margin-top: 2vh;
+    margin-bottom: 10vh;
   }
 }
