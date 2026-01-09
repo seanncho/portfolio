@@ -16,9 +16,6 @@
   #hamburger-nav {
     display: flex;
   }
-  #about {
-    margin-top: 30vh;
-  }
   @-moz-document url-prefix() {
     #about {
       margin-top: 120vh;
@@ -65,9 +62,6 @@
   #profile {
     height: 80vh;
     margin-bottom: 0;
-  }
-  #about {
-    margin-top: 30vh;
   }
   footer nav {
     height: fit-content;
