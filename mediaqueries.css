@@ -4,7 +4,6 @@
   #profile {
     display: block;
     height: 20dvh;
-    margin-bottom: 0;
   }
   @-moz-document url-prefix() {
     #about {
@@ -69,7 +68,6 @@
 @media screen and (max-width: 600px) {
   #profile {
     height: 80dvh;
-    margin-bottom: 0;
   }
   @-moz-document url-prefix() {
     #about {
