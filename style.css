@@ -29,7 +29,7 @@ p {
 }
 
 h1 {
-  margin-top: 10vh;
+  margin-top: 10dvh;
 }
 
 h3 {
@@ -56,7 +56,7 @@ nav,
 nav {
   justify-content: space-around;
   align-items: center;
-  height: 15vh;
+  height: 15dvh;
   position: sticky;
   top: 0;
   background-color: rgba(18, 18, 18, 0.8);
@@ -175,7 +175,7 @@ a:hover {
 /* SECTIONS */
 
 section {
-  scroll-margin-top: 22vh;
+  scroll-margin-top: 22dvh;
   height: fit-content;
   min-height: fit-content;
   box-sizing: border-box;
@@ -187,7 +187,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 5em;
-  height: 60vh;
+  height: 60dvh;
 }
 
 .profile-pic {
@@ -322,11 +322,11 @@ section {
 
 .book-grid {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  margin-bottom: 10vh;
+  margin-bottom: 10dvh;
 }
 
 #books {
-  margin-top: 20vh;
+  margin-top: 20dvh;
   margin-left: auto;
   margin-right: auto;
 }
@@ -348,7 +348,7 @@ section {
 /* ABOUT SECTION */
 
 #about {
-  margin-top: 25vh;
+  margin-top: 25dvh;
   margin-left: auto;
   margin-right: auto;
 }
@@ -372,7 +372,7 @@ section {
 /* SKILLS SECTION */
 
 #skills {
-  margin-top: 20vh;
+  margin-top: 20dvh;
   margin-left: auto;
   margin-right: auto;
 }
@@ -391,7 +391,7 @@ section {
 /* PROJECTS SECTION */
 
 #projects {
-  margin-top: 20vh;
+  margin-top: 20dvh;
   margin-left: auto;
   margin-right: auto;
 }
@@ -427,7 +427,7 @@ section {
 /* CONTACT */
 
 #contact {
-  margin-top: 20vh;
+  margin-top: 20dvh;
   margin-left: auto;
   margin-right: auto;
 }
@@ -443,10 +443,10 @@ section {
 /* FOOTER SECTION */
 
 footer {
-  margin-top: 10vh;
-  margin-bottom: 10vh;
-  margin-left: 5vh;
-  margin-right: 5vh;
+  margin-top: 10dvh;
+  margin-bottom: 10dvh;
+  margin-left: 5dvh;
+  margin-right: 5dvh;
 }
 
 .footer-text {
