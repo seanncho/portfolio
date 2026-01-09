@@ -57,10 +57,10 @@
   }
 }
 
-@media (max-width: 768px) and (orientation: landscape) {
-  @-moz-document url-prefix() {
+@-moz-document url-prefix() {
+  @media (max-width: 768px) and (orientation: landscape) {
     #about {
-      margin-top: 200vh;
+      margin-top: 100vh; /* optional Firefox-specific tweak */
     }
   }
 }
