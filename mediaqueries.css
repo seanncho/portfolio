@@ -60,7 +60,7 @@
 @media (max-width: 768px) and (orientation: landscape) {
   @-moz-document url-prefix() {
     #about {
-      margin-top: 100dvh;
+      margin-top: 200dvh;
     }
   }
 }
