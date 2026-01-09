@@ -5,6 +5,11 @@
     display: block;
     height: 20vh;
   }
+  @-moz-document url-prefix() {
+    #about {
+      margin-top: 120vh;
+    }
+  }
   .profile-pic {
     margin-left: auto;
     margin-right: auto;
@@ -55,6 +60,11 @@
 @media screen and (max-width: 600px) {
   #profile {
     height: 80vh;
+  }
+  @-moz-document url-prefix() {
+    #about {
+      margin-top: 25vh;
+    }
   }
   footer nav {
     height: fit-content;
