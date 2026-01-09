@@ -16,11 +16,6 @@
   #hamburger-nav {
     display: flex;
   }
-  @-moz-document url-prefix() {
-    #about {
-      margin-top: 120vh;
-    }
-  }
   #skills {
     margin-top: 2em;
   }
@@ -66,11 +61,6 @@
   footer nav {
     height: fit-content;
     margin-bottom: 2em;
-  }
-  @-moz-document url-prefix() {
-    #about {
-      margin-top: 30vh;
-    }
   }
   .nav-links li a {
     font-size: 0.75em;
