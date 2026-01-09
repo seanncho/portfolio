@@ -58,6 +58,12 @@
   }
 }
 
+@media (max-width: 768px) and (orientation: landscape) {
+  .your-element {
+    margin-top: 120dvh;
+  }
+}
+
 @media screen and (max-width: 600px) {
   #profile {
     height: 80dvh;
