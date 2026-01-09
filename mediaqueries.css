@@ -59,8 +59,10 @@
 }
 
 @media (max-width: 768px) and (orientation: landscape) {
-  .your-element {
-    margin-top: 120dvh;
+  @-moz-document url-prefix() {
+    #about {
+      margin-top: 100dvh;
+    }
   }
 }
 
