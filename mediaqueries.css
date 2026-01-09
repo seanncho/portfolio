@@ -19,6 +19,11 @@
   #about {
     margin-top: 30vh;
   }
+  @-moz-document url-prefix() {
+    #about {
+      margin-top: 120vh;
+    }
+  }
   #skills {
     margin-top: 2em;
   }
