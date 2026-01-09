@@ -58,6 +58,14 @@
 }
 
 @media screen and (max-width: 600px) {
+  @-moz-document url-prefix() {
+    #about {
+      margin-top: 160vh;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
   #profile {
     height: 80vh;
   }
