@@ -42,38 +42,3 @@ window.addEventListener("scroll", handleScroll);
 
 // Initial check to fade in elements if they are already in the viewport without scrolling
 handleScroll();
-
-// LOCK ORIENTATION TO PORTRAIT MODE
-window.addEventListener('orientationchange', handleOrientationChange);
- 
-function handleOrientationChange() {
-  const orientation = window.orientation; // Returns 0, 90, -90, or 180 (device-dependent)
-  const isLandscape = (orientation === 90 || orientation === -90);
- 
-  if (isLandscape) {
-    console.log("Device is in landscape.");
-    // Add logic here (e.g., show overlay, lock orientation if possible)
-  } else {
-    console.log("Device is in portrait.");
-    // Hide overlay, unlock orientation, etc.
-  }
-}
- 
-// Trigger initial check on page load
-handleOrientationChange();
-
-async function lockPortrait() {
-  try {
-    // Check if the API is supported
-    if (screen.orientation && screen.orientation.lock) {
-      await screen.orientation.lock('portrait'); // Locks to all portrait modes (primary/secondary)
-      console.log("Orientation locked to portrait.");
-    }
-  } catch (error) {
-    console.error("Failed to lock orientation:", error);
-    // Fallback: Show overlay (from Section 3.2)
-  }
-}
- 
-// Call lockPortrait() on user interaction (e.g., button click, page load)
-// Note: Some browsers require user interaction to lock orientation (security restriction)
