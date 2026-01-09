@@ -57,21 +57,13 @@
   }
 }
 
-@media screen and (max-width: 900px) {
-  @-moz-document url-prefix() {
-    #about {
-      margin-top: 50vh;
-    }
-  }
-}
-
 @media screen and (max-width: 600px) {
   #profile {
     height: 80vh;
   }
   @-moz-document url-prefix() {
     #about {
-      margin-top: 25vh;
+      margin-top: 30vh;
     }
   }
   footer nav {
