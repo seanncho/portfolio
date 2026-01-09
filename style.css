@@ -181,6 +181,12 @@ section {
   box-sizing: border-box;
 }
 
+main {
+  display: flex;
+  gap: 1rem;
+}
+
+
 /* PROFILE SECTION */
 
 #profile {
