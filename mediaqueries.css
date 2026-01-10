@@ -69,7 +69,7 @@
 @media screen and (max-width: 1200px) and (orientation: landscape) {
   @-moz-document url-prefix() {
     #profile {
-      min-height: 40vh;
+      min-height: 20vh;
       height: auto;
     }
     #about {
@@ -166,6 +166,9 @@
     }
     #about {
       margin-top: 60vh;
+    }
+    nav {
+      height: 20vh;
     }
   }
 }
