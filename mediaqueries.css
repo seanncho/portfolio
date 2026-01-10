@@ -60,7 +60,7 @@
 @media screen and (max-width: 600px) {
   @-moz-document url-prefix() {
     #about {
-      margin-top: 160vh;
+      margin-top: 120vh;
     }
   }
 }
@@ -73,7 +73,7 @@
       height: auto;
     }
     #about {
-      margin-top: 100vh;
+      margin-top: 80vh;
     }
   }
 }
@@ -165,7 +165,7 @@
       height: auto;
     }
     #about {
-      margin-top: 80vh;
+      margin-top: 60vh;
     }
   }
 }
