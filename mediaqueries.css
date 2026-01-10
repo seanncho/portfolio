@@ -65,6 +65,19 @@
   }
 }
 
+/* Firefox mobile landscape orientation fix */
+@media screen and (max-width: 1200px) and (orientation: landscape) {
+  @-moz-document url-prefix() {
+    #profile {
+      min-height: 20vh;
+      height: auto;
+    }
+    #about {
+      margin-top: 150vh;
+    }
+  }
+}
+
 @media screen and (max-width: 600px) {
   #profile {
     height: 80vh;
@@ -141,5 +154,18 @@
   footer {
     margin-top: 2vh;
     margin-bottom: 10vh;
+  }
+}
+
+/* Firefox mobile landscape orientation fix for small screens */
+@media screen and (max-width: 600px) and (orientation: landscape) {
+  @-moz-document url-prefix() {
+    #profile {
+      min-height: 80vh;
+      height: auto;
+    }
+    #about {
+      margin-top: 120vh;
+    }
   }
 }
