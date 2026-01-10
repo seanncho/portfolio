@@ -247,7 +247,6 @@
   }
 }
 
-/* Landscape orientation for wider screens */
 @media screen and (min-width: 901px) and (max-width: 1200px) and (orientation: landscape) {
   .profile-pic {
     height: 180px !important;
