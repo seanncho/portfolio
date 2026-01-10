@@ -131,10 +131,6 @@
 
 @media screen and (max-width: 600px) and (orientation: landscape) {
   @-moz-document url-prefix() {
-    .profile-pic {
-      height: 200px !important;
-      width: 200px !important;
-    }
     #profile {
       min-height: 80vh;
       height: auto;
@@ -151,10 +147,6 @@
 
 @media screen and (max-width: 1200px) and (orientation: landscape) {
   @-moz-document url-prefix() {
-    .profile-pic {
-      height: 200px !important;
-      width: 200px !important;
-    }
     #profile {
       min-height: 20vh;
       height: auto;
@@ -201,6 +193,8 @@
   .section-pic-container {
     height: 150px !important;
     width: 150px !important;
+    margin-left: auto;
+    margin-right: auto;
   }
   .cert-grid {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -255,6 +249,8 @@
   .section-pic-container {
     height: 180px !important;
     width: 180px !important;
+    margin-left: auto;
+    margin-right: auto;
   }
   .skill-grid {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
@@ -271,6 +267,8 @@
   .section-pic-container {
     height: 200px !important;
     width: 200px !important;
+    margin-left: auto;
+    margin-right: auto;
   }
   .skill-grid {
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
