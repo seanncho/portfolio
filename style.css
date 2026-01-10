@@ -187,6 +187,7 @@ section {
   justify-content: center;
   gap: 5em;
   height: 60vh;
+  margin: 10vh auto 0;
 }
 
 .profile-pic {
