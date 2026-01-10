@@ -186,25 +186,33 @@
 }
 
 @media screen and (max-width: 900px) and (orientation: landscape) {
+  #profile {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
   .profile-pic {
     height: 150px !important;
     width: 150px !important;
     margin-left: auto;
     margin-right: auto;
+    display: block;
   }
   .section-pic-container {
     height: 150px !important;
     width: 150px !important;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  .cert-grid {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 0.75em;
-    padding: 1em;
+  .section_text {
+    text-align: center;
+    width: 100%;
   }
   .skill-grid {
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 0.75em;
     padding: 1em;
   }
@@ -242,6 +250,8 @@
     margin-top: 15vh !important;
   }
   nav {
+    position: sticky !important;
+    top: 0 !important;
     padding-top: 5vh !important;
     padding-bottom: 5vh !important;
   }
