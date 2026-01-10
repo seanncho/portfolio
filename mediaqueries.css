@@ -58,27 +58,6 @@
 }
 
 @media screen and (max-width: 600px) {
-  @-moz-document url-prefix() {
-    #about {
-      margin-top: 120vh;
-    }
-  }
-}
-
-/* Firefox mobile landscape orientation fix */
-@media screen and (max-width: 1200px) and (orientation: landscape) {
-  @-moz-document url-prefix() {
-    #profile {
-      min-height: 20vh;
-      height: auto;
-    }
-    #about {
-      margin-top: 60vh;
-    }
-  }
-}
-
-@media screen and (max-width: 600px) {
   #profile {
     height: 80vh;
   }
@@ -157,6 +136,14 @@
   }
 }
 
+@media screen and (max-width: 600px) {
+  @-moz-document url-prefix() {
+    #about {
+      margin-top: 120vh;
+    }
+  }
+}
+
 /* Firefox mobile landscape orientation fix for small screens */
 @media screen and (max-width: 600px) and (orientation: landscape) {
   @-moz-document url-prefix() {
@@ -168,7 +155,23 @@
       margin-top: 30vh;
     }
     nav {
-      height: 20vh;
+      height: 40vh;
+    }
+  }
+}
+
+/* Firefox mobile landscape orientation fix */
+@media screen and (max-width: 1200px) and (orientation: landscape) {
+  @-moz-document url-prefix() {
+    #profile {
+      min-height: 20vh;
+      height: auto;
+    }
+    #about {
+      margin-top: 60vh;
+    }
+    nav {
+      height: 40vh;
     }
   }
 }
