@@ -126,7 +126,9 @@
   }
 }
 
-/* Firefox mobile landscape orientation fix for small screens */
+
+/* PORTRAIT ORIENTATION */
+
 @media screen and (max-width: 600px) and (orientation: landscape) {
   @-moz-document url-prefix() {
     #profile {
@@ -139,8 +141,31 @@
   }
 }
 
-/* Firefox mobile landscape orientation fix */
 @media screen and (max-width: 1200px) and (orientation: landscape) {
+  @-moz-document url-prefix() {
+    #profile {
+      min-height: 20vh;
+      height: auto;
+    }
+    #about {
+      margin-top: 60vh;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) and (orientation: portrait) {
+  @-moz-document url-prefix() {
+    #profile {
+      min-height: 80vh;
+      height: auto;
+    }
+    #about {
+      margin-top: 30vh;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) and (orientation: portrait) {
   @-moz-document url-prefix() {
     #profile {
       min-height: 20vh;
