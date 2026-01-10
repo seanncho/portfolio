@@ -139,7 +139,8 @@
       margin-top: 30vh !important;
     }
     nav {
-      height: 20vh
+      margin-top: 10vh;
+      margin-bottom: 10vh;
     }
   }
 }
@@ -154,7 +155,8 @@
       margin-top: 60vh !important;
     }
     nav {
-      height: 30vh
+      margin-top: 10vh;
+      margin-bottom: 10vh;
     }
   }
 }
