@@ -189,6 +189,8 @@
   .profile-pic {
     height: 150px !important;
     width: 150px !important;
+    margin-left: auto;
+    margin-right: auto;
   }
   .section-pic-container {
     height: 150px !important;
@@ -238,5 +240,9 @@
   }
   #books {
     margin-top: 15vh !important;
+  }
+  nav {
+    padding-top: 5vh !important;
+    padding-bottom: 5vh !important;
   }
 }
