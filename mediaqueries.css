@@ -142,6 +142,13 @@
       padding-top: 5vh !important;
       padding-bottom: 5vh !important;
     }
+    #books {
+      margin-top: 15vh !important;
+      padding-top: 15vh !important;
+    }
+    footer {
+      margin-bottom: 5vh !important;
+    }
   }
 }
 
@@ -245,13 +252,6 @@
   }
   #projects {
     margin-top: 10vh;
-  }
-  #books {
-    margin-top: 15vh !important;
-    padding-top: 15vh !important;
-  }
-  footer {
-    margin-bottom: 5vh !important;
   }
   nav {
     position: sticky !important;
