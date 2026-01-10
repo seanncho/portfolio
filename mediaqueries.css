@@ -203,14 +203,14 @@
     justify-content: center;
   }
   .profile-pic {
-    height: 150px !important;
-    width: 150px !important;
+    height: 200px !important;
+    width: 200px !important;
     margin: 0 auto;
     display: block;
   }
   .section-pic-container {
-    height: 150px !important;
-    width: 150px !important;
+    height: 200px !important;
+    width: 200px !important;
     margin: 0 auto;
     display: flex;
     justify-content: center;
