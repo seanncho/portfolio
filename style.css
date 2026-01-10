@@ -177,7 +177,6 @@ a:hover {
 section {
   scroll-margin-top: 22vh;
   height: fit-content;
-  min-height: fit-content;
   box-sizing: border-box;
 }
 
@@ -259,15 +258,7 @@ section {
   gap: 1em;
 }
 
-.btn {
-  text-align: center;
-  font-size: 1em;
-  padding: 1em;
-  width: 10em;
-  border-radius: 1em;
-  margin: 0.25em;
-}
-
+.btn,
 .btn2 {
   text-align: center;
   font-size: 1em;
@@ -326,15 +317,12 @@ section {
 }
 
 #books {
-  margin-top: 30vh;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 30vh auto 0;
 }
 
 .book-img {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   border-radius: 8px;
   object-fit: cover;
   width: 50%;
@@ -348,9 +336,7 @@ section {
 /* ABOUT SECTION */
 
 #about {
-  margin-top: 25vh;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 25vh auto 0;
 }
 
 .cert-grid-container {
@@ -372,9 +358,7 @@ section {
 /* SKILLS SECTION */
 
 #skills {
-  margin-top: 20vh;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 20vh auto 0;
 }
 
 .skill-grid-container {
@@ -391,9 +375,7 @@ section {
 /* PROJECTS SECTION */
 
 #projects {
-  margin-top: 20vh;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 20vh auto 0;
 }
 
 .project-grid-container {
@@ -412,8 +394,7 @@ section {
 
 .project-img {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   border-radius: 2em;
   object-fit: cover;
   width: 50%;
@@ -427,9 +408,7 @@ section {
 /* CONTACT */
 
 #contact {
-  margin-top: 20vh;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 20vh auto 0;
 }
 
 .contact-grid-container {
@@ -443,10 +422,7 @@ section {
 /* FOOTER SECTION */
 
 footer {
-  margin-top: 10vh;
-  margin-bottom: 10vh;
-  margin-left: 5vh;
-  margin-right: 5vh;
+  margin: 10vh 5vh;
 }
 
 .footer-text {

@@ -6,8 +6,7 @@
     height: 20vh;
   }
   .profile-pic {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
   }
   #desktop-nav {
     display: none;
@@ -47,8 +46,7 @@
     font-size: 1.2em;
   }
   footer {
-    margin-top: 10vh;
-    margin-bottom: 10vh;
+    margin: 10vh 0;
   }
 }
 
@@ -82,22 +80,24 @@
   .title {
     font-size: 2em;
   }
+  .cert-grid,
+  .skill-grid,
+  .project-grid,
+  .contact-grid {
+    margin: 0 auto;
+  }
   .cert-grid {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    margin: 0 auto;
   }
   .skill-grid {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    margin: 0 auto;
   }
   .project-grid {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    margin: 0 auto;
     row-gap: 2.5em;
   }
   .contact-grid {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    margin: 0 auto;
   }
   .book-grid {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -114,15 +114,12 @@
   .project-img {
     width: 100%;
   }
-  p {
-    font-size: 0.7em
-  }
+  p,
   .bio {
-    font-size: 0.7em
+    font-size: 0.7em;
   }
   footer {
-    margin-top: 2vh;
-    margin-bottom: 5vh;
+    margin: 2vh 0 5vh;
   }
 }
 
@@ -208,15 +205,13 @@
   .profile-pic {
     height: 150px !important;
     width: 150px !important;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     display: block;
   }
   .section-pic-container {
     height: 150px !important;
     width: 150px !important;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
