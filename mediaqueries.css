@@ -136,14 +136,6 @@
   }
 }
 
-@media screen and (max-width: 600px) {
-  @-moz-document url-prefix() {
-    #about {
-      margin-top: 120vh;
-    }
-  }
-}
-
 /* Firefox mobile landscape orientation fix for small screens */
 @media screen and (max-width: 600px) and (orientation: landscape) {
   @-moz-document url-prefix() {
