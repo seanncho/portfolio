@@ -192,6 +192,7 @@
     padding: 1em;
   }
   .book-grid {
+    margin-top: 10vh;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 0.75em;
     padding: 1em;
@@ -212,8 +213,10 @@
     font-size: 0.9em;
     padding: 0.5em;
   }
-  #projects,
-  #books {
+  #projects {
     margin-top: 10vh;
+  }
+  #books {
+    margin-top: 15vh;
   }
 }
