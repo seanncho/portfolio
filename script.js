@@ -1,17 +1,16 @@
+// Cache DOM elements
+const menu = document.querySelector(".menu-links");
+const icon = document.querySelector(".hamburger-icon");
+
 // Open the menu when the hamburger icon is clicked
 function toggleMenu() {
-  const menu = document.querySelector(".menu-links");
-  const icon = document.querySelector(".hamburger-icon");
   menu.classList.toggle("open");
   icon.classList.toggle("open");
 }
 
 // Close the menu when a link is clicked
-document.addEventListener("click", function(event) {
-  const menu = document.querySelector(".menu-links");
-  const icon = document.querySelector(".hamburger-icon");
+document.addEventListener("click", (event) => {
   const target = event.target;
-
   if (!menu.contains(target) && !icon.contains(target)) {
     menu.classList.remove("open");
     icon.classList.remove("open");
@@ -22,18 +21,13 @@ document.addEventListener("click", function(event) {
 const elementsToFadeInUpOnScroll = document.querySelectorAll(".tag");
 
 function handleScroll() {
-  elementsToFadeInUpOnScroll.forEach(function(element) {
-    const elementTop = element.getBoundingClientRect().top;
-    const elementBottom = element.getBoundingClientRect().bottom;
-    const windowHeight = window.innerHeight;
-
-    if (elementTop < windowHeight * 0.8 && elementBottom > 0) {
-      element.classList.add("fade-in-up");
-      element.classList.remove("fade-out");
-    } else {
-      element.classList.remove("fade-in-up");
-      element.classList.add("fade-out");
-    }
+  const windowHeight = window.innerHeight;
+  elementsToFadeInUpOnScroll.forEach((element) => {
+    const rect = element.getBoundingClientRect();
+    const isVisible = rect.top < windowHeight * 0.8 && rect.bottom > 0;
+    
+    element.classList.toggle("fade-in-up", isVisible);
+    element.classList.toggle("fade-out", !isVisible);
   });
 }
 
