@@ -136,7 +136,7 @@
       height: auto;
     }
     #about {
-      margin-top: 30vh;
+      margin-top: 30vh !important;
     }
   }
 }
@@ -148,7 +148,7 @@
       height: auto;
     }
     #about {
-      margin-top: 60vh;
+      margin-top: 60vh !important;
     }
   }
 }
@@ -160,7 +160,7 @@
       height: auto;
     }
     #about {
-      margin-top: 10vh;
+      margin-top: 10vh !important;
     }
   }
 }
@@ -172,7 +172,7 @@
       height: auto;
     }
     #about {
-      margin-top: 20vh;
+      margin-top: 20vh !important;
     }
   }
 }
