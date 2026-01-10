@@ -132,8 +132,8 @@
 @media screen and (max-width: 600px) and (orientation: landscape) {
   @-moz-document url-prefix() {
     .profile-pic {
-      height: 200px;
-      width: 200px;
+      height: 200px !important;
+      width: 200px !important;
     }
     #profile {
       min-height: 80vh;
@@ -152,8 +152,8 @@
 @media screen and (max-width: 1200px) and (orientation: landscape) {
   @-moz-document url-prefix() {
     .profile-pic {
-      height: 200px;
-      width: 200px;
+      height: 200px !important;
+      width: 200px !important;
     }
     #profile {
       min-height: 20vh;
@@ -195,8 +195,8 @@
 
 @media screen and (max-width: 900px) and (orientation: landscape) {
   .profile-pic {
-    height: 150px;
-    width: 150px;
+    height: 150px !important;
+    width: 150px !important;
   }
   .cert-grid {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
