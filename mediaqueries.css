@@ -138,8 +138,8 @@
     #about {
       margin-top: 30vh !important;
     }
-    .book-grid {
-      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    nav {
+      margin-top: 30vh !important;
     }
   }
 }
@@ -151,6 +151,9 @@
       height: auto;
     }
     #about {
+      margin-top: 60vh !important;
+    }
+    nav {
       margin-top: 60vh !important;
     }
   }
@@ -177,5 +180,38 @@
     #about {
       margin-top: 20vh !important;
     }
+  }
+}
+
+@media screen and (max-width: 900px) and (orientation: landscape) {
+  .project-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.75em;
+    padding: 1em;
+  }
+  .book-grid {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 0.75em;
+    padding: 1em;
+  }
+  .project-img {
+    width: 40%;
+  }
+  .book-img {
+    width: 40%;
+  }
+  .project-grid-container,
+  .book-grid-container {
+    padding: 1em;
+    margin: 0.5em;
+  }
+  #projects h3,
+  #books h3 {
+    font-size: 0.9em;
+    padding: 0.5em;
+  }
+  #projects,
+  #books {
+    margin-top: 10vh;
   }
 }
