@@ -138,6 +138,9 @@
     #about {
       margin-top: 30vh !important;
     }
+    .book-grid {
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
   }
 }
 
