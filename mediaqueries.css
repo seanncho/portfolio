@@ -4,6 +4,7 @@
   #profile {
     display: block;
     height: 20vh;
+    margin: 5vh auto 0;
   }
   .profile-pic {
     margin: 0 auto;
