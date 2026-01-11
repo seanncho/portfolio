@@ -429,8 +429,11 @@ footer {
 .footer-text {
   text-align: center;
   font-size: 1em;
-  padding-left: 1em;
-  padding-right: 1em;
+}
+
+.tag.quote {
+  margin-left: 5em;
+  margin-right: 5em;
 }
 
 /* SCROLL FADE ANIMATIONS */
